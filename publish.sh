@@ -6,6 +6,6 @@ if [ -z $TAG ]
 fi
 
 docker build . -t ptsecurity/node-container:$TAG
-docker push ptsecurity/node-container
+docker push ptsecurity/node-container:$TAG
 git tag -a $TAG -m "published to docker"
 git push --tags
