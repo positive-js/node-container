@@ -6,3 +6,7 @@ RUN rm -rf /usr/local/bin/yarn /opt/yarn \
  && wget -q -O - http://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
  && echo "deb http://dl.yarnpkg.com/debian/ stable main" > /etc/apt/sources.list.d/yarn.list \
  && apt-get update && apt-get install -y yarn
+ 
+ ###
+ # Upgrade NPM to 5.3.0
+ RUN npm install npm@5.3.0 -g
