@@ -5,7 +5,7 @@ This docker container provides environment for Angular applications:
 
 node 8.9.4
 
-npm 5.5.1
+npm 5.6.0
 
 yarn 1.3.2
 
