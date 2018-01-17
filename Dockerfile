@@ -1,5 +1,6 @@
 FROM circleci/node:8.9.4-browsers
 
+USER root
 USER circleci
 
 ###
