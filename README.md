@@ -3,17 +3,13 @@ Docker image for PositiveJS projects
 
 This docker container provides environment for Angular applications:
 
-node 8.9.4
-
-npm 5.6.0
-
-yarn 1.3.2
-
-Google Chrome 63.0.3239.84
-
-Mozilla Firefox 47.0.1
-
-xvfb (virtual framebuffer) for headless testing
+* node 10.9.0
+* npm 6.2.0
+* yarn 1.9.2
+* Google Chrome 69.0.3497.81
+* Mozilla Firefox 47.0.1
+* xvfb (virtual framebuffer) for headless testing
+* Brotli compression utility, making smaller files than gzip
 
 ## Build
 
